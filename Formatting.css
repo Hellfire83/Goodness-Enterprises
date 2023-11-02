@@ -1,0 +1,36 @@
+/* Fonts */
+
+@font-face {
+    font-family: Norwester;
+    src: url("Fonts/norwester.otf") format("opentype");
+}
+
+/* Body */
+
+body {
+    margin: 0%;
+}
+
+Ul {
+    padding: 0%;
+}
+
+.homepage {
+    
+}
+
+/* Navbar */
+
+#navbar {
+    overflow: hidden;
+    background-color: #04353b;
+}
+
+#navbar a {
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Norwester;
+    font-size: larger;
+}
