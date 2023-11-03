@@ -1,0 +1,61 @@
+/* Fonts */
+
+@font-face {
+    font-family: Norwester;
+    src: url("../Fonts/norwester.otf") format("opentype");
+}
+
+/* Body */
+
+body {
+    margin: 0%;
+}
+
+Ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Navbar */
+
+#navbar {
+    overflow: hidden;
+    background-color: #04353b;
+    font-family: Norwester;
+}
+
+#navbar a {
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+    font-size: larger;
+    float: left;
+}
+
+#navbar .dropdown .dropbutton {
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+    font-size: larger;
+    background-color: #04353b;
+    border: none;
+    float: left;
+    overflow: hidden;
+    font-family: Norwester;
+}
+
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+    color: #04353b;
+  }
+
+  .dropdown:hover .dropcontent {
+    display: block;
+}
