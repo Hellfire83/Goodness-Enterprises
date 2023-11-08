@@ -56,6 +56,10 @@ Ul {
     color: #04353b;
   }
 
+.dropcontent a:hover {
+    background-color: black;
+}
+
   .dropdown:hover .dropcontent {
     display: block;
 }
